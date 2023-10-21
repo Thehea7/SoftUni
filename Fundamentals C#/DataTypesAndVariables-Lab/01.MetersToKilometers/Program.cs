@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int distanceInMeters = int.Parse(Console.ReadLine());
+
+double distanceInKilometards =distanceInMeters * 0.001;
+
+Console.WriteLine($"{distanceInKilometards:f2}");
