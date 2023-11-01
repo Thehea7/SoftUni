@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Encrypt,SortAndPrintArra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PascalTriangle", "02.PascalTriangle\02.PascalTriangle.csproj", "{6EB4EC94-D161-4C15-8C70-85DC83FEF917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.RecursiveFibonacci", "03.RecursiveFibonacci\03.RecursiveFibonacci.csproj", "{7CC31407-B452-4387-A8FA-1E4FBBC77910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FoldAndSum", "04.FoldAndSum\04.FoldAndSum.csproj", "{EAA28A97-A1EB-49BF-AE2B-544CFF444330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LongestIncreasingSubsequence", "05.LongestIncreasingSubsequence\05.LongestIncreasingSubsequence.csproj", "{AC35DDDA-753C-44A2-B4FD-E5BC19B13FB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{6EB4EC94-D161-4C15-8C70-85DC83FEF917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB4EC94-D161-4C15-8C70-85DC83FEF917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB4EC94-D161-4C15-8C70-85DC83FEF917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC31407-B452-4387-A8FA-1E4FBBC77910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC31407-B452-4387-A8FA-1E4FBBC77910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC31407-B452-4387-A8FA-1E4FBBC77910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC31407-B452-4387-A8FA-1E4FBBC77910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA28A97-A1EB-49BF-AE2B-544CFF444330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA28A97-A1EB-49BF-AE2B-544CFF444330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA28A97-A1EB-49BF-AE2B-544CFF444330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA28A97-A1EB-49BF-AE2B-544CFF444330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC35DDDA-753C-44A2-B4FD-E5BC19B13FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC35DDDA-753C-44A2-B4FD-E5BC19B13FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC35DDDA-753C-44A2-B4FD-E5BC19B13FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC35DDDA-753C-44A2-B4FD-E5BC19B13FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
