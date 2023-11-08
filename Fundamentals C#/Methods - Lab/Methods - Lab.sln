@@ -5,23 +5,25 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SignOfIntegerNumbers", "01.SignOfIntegerNumbers\01.SignOfIntegerNumbers.csproj", "{68F45DAC-52F6-488C-AFA3-A874D4951694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Grades", "02.Grades\02.Grades.csproj", "{13AD1023-6FBA-4DD7-AE3C-C16F641A870E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Grades", "02.Grades\02.Grades.csproj", "{13AD1023-6FBA-4DD7-AE3C-C16F641A870E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Calculations", "03.Calculations\03.Calculations.csproj", "{132F8A9B-FAB4-44AE-8F7F-B4AEE5E5FEB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Calculations", "03.Calculations\03.Calculations.csproj", "{132F8A9B-FAB4-44AE-8F7F-B4AEE5E5FEB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.PrintingTriangle", "04.PrintingTriangle\04.PrintingTriangle.csproj", "{196B51DC-9CD1-4ABD-9A89-6E918BC8BFFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.PrintingTriangle", "04.PrintingTriangle\04.PrintingTriangle.csproj", "{196B51DC-9CD1-4ABD-9A89-6E918BC8BFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Orders", "05.Orders\05.Orders.csproj", "{16D96294-F2BA-451E-9F97-38E17CCCAACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Orders", "05.Orders\05.Orders.csproj", "{16D96294-F2BA-451E-9F97-38E17CCCAACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CalculateRectangleArea", "06.CalculateRectangleArea\06.CalculateRectangleArea.csproj", "{3FB09518-7075-4296-A83A-A849D36FAA23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.CalculateRectangleArea", "06.CalculateRectangleArea\06.CalculateRectangleArea.csproj", "{3FB09518-7075-4296-A83A-A849D36FAA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.RepeatString", "07.RepeatString\07.RepeatString.csproj", "{48EF7BE7-D57D-42FF-A833-41B29AF0C704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.RepeatString", "07.RepeatString\07.RepeatString.csproj", "{48EF7BE7-D57D-42FF-A833-41B29AF0C704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.MathPower", "08.MathPower\08.MathPower.csproj", "{2324A06F-F5B7-4DDD-A3D1-9AD384684BFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.MathPower", "08.MathPower\08.MathPower.csproj", "{2324A06F-F5B7-4DDD-A3D1-9AD384684BFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.GreaterOfTwoValues", "09.GreaterOfTwoValues\09.GreaterOfTwoValues.csproj", "{1DD72ADF-B862-44DB-88A4-8A95F2D73A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.GreaterOfTwoValues", "09.GreaterOfTwoValues\09.GreaterOfTwoValues.csproj", "{1DD72ADF-B862-44DB-88A4-8A95F2D73A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.MultiplyEvensByOdds", "10.MultiplyEvensByOdds\10.MultiplyEvensByOdds.csproj", "{D4C21260-40AF-4DB3-9897-B02B1349CEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.MultiplyEvensByOdds", "10.MultiplyEvensByOdds\10.MultiplyEvensByOdds.csproj", "{D4C21260-40AF-4DB3-9897-B02B1349CEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.MathOperations", "11.MathOperations\11.MathOperations.csproj", "{A02B5D84-DB27-4FE0-BCCC-0CE3E2469525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{D4C21260-40AF-4DB3-9897-B02B1349CEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C21260-40AF-4DB3-9897-B02B1349CEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C21260-40AF-4DB3-9897-B02B1349CEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02B5D84-DB27-4FE0-BCCC-0CE3E2469525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02B5D84-DB27-4FE0-BCCC-0CE3E2469525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02B5D84-DB27-4FE0-BCCC-0CE3E2469525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02B5D84-DB27-4FE0-BCCC-0CE3E2469525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
