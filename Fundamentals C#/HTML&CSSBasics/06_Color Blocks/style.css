@@ -1,0 +1,24 @@
+h1{
+    
+    color:rgb(225, 0, 255);
+    text-align:center;
+}
+
+ul {
+    list-style: square;
+}
+ol{
+    list-style: upper-roman;
+}
+
+li{
+    margin-bottom: 10px;
+}
+.siteContent{
+   width: 400px;
+   margin: auto; 
+}
+#alabala {
+    color: goldenrod;
+
+}
