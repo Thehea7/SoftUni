@@ -1,51 +1,43 @@
-﻿using System.Security.Cryptography;
-
-namespace _04.Students
+﻿namespace _04.Students
 {
+
+    class Student
+    {
+        public Student(string v1, string v2, double grade)
+        {
+            Firstname = v1;
+            Lastname = v2;
+            Grade = grade;
+        }
+
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public double Grade { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Firstname} {Lastname}: {Grade:f2}";
+        }
+    }
     internal class Program
     {
         static void Main()
         {
-            string input = string.Empty;
-
-            List<Student> list = new List<Student>();
-
-            while ((input = Console.ReadLine()) != "end")
+            int count = int.Parse(Console.ReadLine());
+            List<Student> students = new List<Student>();
+            for (int i = 0; i < count; i++)
             {
-                string[] studentInfo = input.Split();
-                int age = int.Parse(studentInfo[2]);
-                Student currentStudent = new Student(studentInfo[0], studentInfo[1], age, studentInfo[3]);
-                list.Add(currentStudent);
-
+                string[] input = Console.ReadLine().Split(" ").ToArray(); 
+                double grade = double.Parse(input[2]);
+                Student student = new Student(input[0], input[1], grade);
+                students.Add(student);
             }
-            string cityName = Console.ReadLine();
+            List<Student> orderedList= students.OrderByDescending(x => x.Grade).ToList();
 
-            foreach (Student student in list)
+            foreach (Student student in orderedList)
             {
-                if (student.HomeTown == cityName)
-                {
-                    Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
-                }
+                Console.WriteLine(student);
             }
-           
         }
-    }
-
-    class Student
-    {
-        public Student(string name, string lastName, int age, string home)
-        { 
-            FirstName = name;
-            LastName = lastName;
-            Age = age;
-            HomeTown = home;
-        }
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
-        public int Age { get; set; }
-
-        public string HomeTown { get; set; }
     }
 }
