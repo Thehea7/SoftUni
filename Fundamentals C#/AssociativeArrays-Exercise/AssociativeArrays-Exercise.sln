@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountCharsInAString", "01.CountCharsInAString\01.CountCharsInAString.csproj", "{ACE82221-472E-4C94-B4B7-F35212173DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AMinerTask", "02.AMinerTask\02.AMinerTask.csproj", "{75CA265E-3ED2-4F15-A476-2724AEA61F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Orders", "03.Orders\03.Orders.csproj", "{9EEC8274-5FC6-4F54-A208-4B110624CCA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SoftUniParking", "04.SoftUniParking\04.SoftUniParking.csproj", "{BA44E70E-F941-4788-AB7E-C61CD7BCB5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Courses", "05.Courses\05.Courses.csproj", "{7378FD37-6F68-435C-B48A-F21BC80EEAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.StudentAcademy", "06.StudentAcademy\06.StudentAcademy.csproj", "{56975EAB-A897-4AE0-8B63-46182290274D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.CompanyUsers", "07.CompanyUsers\07.CompanyUsers.csproj", "{6049C692-EE19-46DE-AEB8-8561A113C58E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE82221-472E-4C94-B4B7-F35212173DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE82221-472E-4C94-B4B7-F35212173DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE82221-472E-4C94-B4B7-F35212173DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE82221-472E-4C94-B4B7-F35212173DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CA265E-3ED2-4F15-A476-2724AEA61F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CA265E-3ED2-4F15-A476-2724AEA61F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CA265E-3ED2-4F15-A476-2724AEA61F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CA265E-3ED2-4F15-A476-2724AEA61F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEC8274-5FC6-4F54-A208-4B110624CCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEC8274-5FC6-4F54-A208-4B110624CCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEC8274-5FC6-4F54-A208-4B110624CCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEC8274-5FC6-4F54-A208-4B110624CCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA44E70E-F941-4788-AB7E-C61CD7BCB5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA44E70E-F941-4788-AB7E-C61CD7BCB5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA44E70E-F941-4788-AB7E-C61CD7BCB5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA44E70E-F941-4788-AB7E-C61CD7BCB5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7378FD37-6F68-435C-B48A-F21BC80EEAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7378FD37-6F68-435C-B48A-F21BC80EEAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7378FD37-6F68-435C-B48A-F21BC80EEAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7378FD37-6F68-435C-B48A-F21BC80EEAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56975EAB-A897-4AE0-8B63-46182290274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56975EAB-A897-4AE0-8B63-46182290274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56975EAB-A897-4AE0-8B63-46182290274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56975EAB-A897-4AE0-8B63-46182290274D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6049C692-EE19-46DE-AEB8-8561A113C58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6049C692-EE19-46DE-AEB8-8561A113C58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6049C692-EE19-46DE-AEB8-8561A113C58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6049C692-EE19-46DE-AEB8-8561A113C58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88FF26A2-27CF-4AB0-8C9F-C148E32A27F2}
+	EndGlobalSection
+EndGlobal
