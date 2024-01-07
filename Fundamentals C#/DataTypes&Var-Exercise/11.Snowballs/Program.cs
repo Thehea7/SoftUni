@@ -23,5 +23,4 @@ for (int i = 0; i < count; i++)
     }
 }
 
-
 Console.WriteLine($"{bestSnowballSnow} : {bestSnowballTime} = {bestSnowballValue} ({bestSnowballQuality})");

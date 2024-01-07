@@ -29,10 +29,6 @@
             }
 
             Console.WriteLine(string.Join(" ", input));
-            
-
-            
-
 
         }
 

@@ -20,7 +20,5 @@ while (pokePowerLeft >= distanceBetweenTargets)
 
 }
 
-
-
 Console.WriteLine(pokePowerLeft);
 Console.WriteLine(targetsPoked);
