@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PeriodicTable", "03.Peri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.EvenTimes", "04.EvenTimes\04.EvenTimes.csproj", "{BA2A8E6C-BF02-4D8B-8973-EB741B601CB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CountSymbols", "05.CountSymbols\05.CountSymbols.csproj", "{0F7CA755-DC21-45BF-A14F-ED33C10FDCE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.CountSymbols", "05.CountSymbols\05.CountSymbols.csproj", "{0F7CA755-DC21-45BF-A14F-ED33C10FDCE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "06.Wardrobe\06.Wardrobe.csproj", "{985A7A8B-512B-42DC-BB3A-C8F39340CC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Wardrobe", "06.Wardrobe\06.Wardrobe.csproj", "{985A7A8B-512B-42DC-BB3A-C8F39340CC46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TheV-Logger", "07.TheV-Logger\07.TheV-Logger.csproj", "{415F5D2C-CE2C-4730-AF01-11007844F5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TheV-Logger", "07.TheV-Logger\07.TheV-Logger.csproj", "{415F5D2C-CE2C-4730-AF01-11007844F5BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Ranking", "08.Ranking\08.Ranking.csproj", "{5174B7C5-BCB1-4A9C-B0ED-138E17174742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Ranking", "08.Ranking\08.Ranking.csproj", "{5174B7C5-BCB1-4A9C-B0ED-138E17174742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SoftUniExamResults", "09.SoftUniExamResults\09.SoftUniExamResults.csproj", "{740B19BA-71D0-4926-9DFC-79E7DCFF6135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.SoftUniExamResults", "09.SoftUniExamResults\09.SoftUniExamResults.csproj", "{740B19BA-71D0-4926-9DFC-79E7DCFF6135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ForceBook", "10.ForceBook\10.ForceBook.csproj", "{D1F68E44-EC16-476B-B966-3D780EEFDD66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{740B19BA-71D0-4926-9DFC-79E7DCFF6135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740B19BA-71D0-4926-9DFC-79E7DCFF6135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740B19BA-71D0-4926-9DFC-79E7DCFF6135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F68E44-EC16-476B-B966-3D780EEFDD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F68E44-EC16-476B-B966-3D780EEFDD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F68E44-EC16-476B-B966-3D780EEFDD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F68E44-EC16-476B-B966-3D780EEFDD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
