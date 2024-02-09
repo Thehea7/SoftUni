@@ -23,7 +23,7 @@ namespace _06.Wardrobe
                 {
                     string cloth = clothes[j];
                     if (!wardrobe[color].ContainsKey(cloth))
-                    {
+                    { 
                         wardrobe[color].Add(cloth, 0);
                     }
                     wardrobe[color][cloth]++;
@@ -31,7 +31,7 @@ namespace _06.Wardrobe
             }
 
             string[] filter = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
-            string filterColor = filter[0];
+            string filterColor = filter[0]; 
             string filterClothes = filter[1];
 
             foreach (var (color, cloths) in wardrobe)

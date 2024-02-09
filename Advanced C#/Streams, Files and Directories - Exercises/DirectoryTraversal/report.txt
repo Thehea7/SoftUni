@@ -1,0 +1,190 @@
+.xlsx
+--GameLevelFilters-Filters-Fr-01-2024 (1).xlsx - 2.911kb
+--PI_SportBetsHistoryGridWidget (41).xlsx - 5.172kb
+--PI_SportBetsHistoryGridWidget (14) (1).xlsx - 5.173kb
+--PI_SportBetsHistoryGridWidget (14).xlsx - 5.173kb
+--PI_SportBetsHistoryGridWidget (2).xlsx - 5.862kb
+--PI_SportBetsHistoryGridWidget (55).xlsx - 6.063kb
+--MarketLevelFilters-Filters-Tu-01-2024.xlsx - 6.584kb
+--MarketLevelFilters-Filters-Tu-01-2024 (1).xlsx - 6.676kb
+--PI_SportBetsHistoryGridWidget.xlsx - 6.720kb
+--GameLevelFilters-Filters-Tu-02-2024.xlsx - 6.924kb
+--MarketLevelFilters-Filters-Tu-01-2024 (3).xlsx - 6.927kb
+--MarketLevelFilters-Filters-Tu-01-2024 (2).xlsx - 7.079kb
+--PI_SportBetsHistoryGridWidget (18).xlsx - 8.075kb
+--PI_SportBetsHistoryGridWidget (37).xlsx - 8.747kb
+--PI_SportBetsHistoryGridWidget (17).xlsx - 8.997kb
+--Lenzerheide.xlsx - 9.234kb
+--new leagues (1).xlsx - 9.256kb
+--new leagues.xlsx - 9.256kb
+--futsal_finland.xlsx - 9.529kb
+--soccer_finland (1).xlsx - 9.563kb
+--soccer_finland.xlsx - 9.563kb
+--bandy_finland (1).xlsx - 9.627kb
+--bandy_finland.xlsx - 9.627kb
+--SixNationsmarkets.xlsx - 9.649kb
+--missing.xlsx - 9.699kb
+--RegularLevelRules-Filters-We-02-2024 (1).xlsx - 9.902kb
+--Template Change Request - Darts  (1).xlsx - 10.308kb
+--Template Change Request - Darts .xlsx - 10.308kb
+--swedish cup revised (1).xlsx - 10.765kb
+--swedish cup revised.xlsx - 10.765kb
+--NFL Limit Increase Request.xlsx - 11.047kb
+--Hockeyettan dec 28.xlsx - 11.402kb
+--Melodifestivalen24alternatives.png.xlsx - 11.579kb
+--Euro2024 fixtures (1).xlsx - 12.132kb
+--Euro2024 fixtures (2).xlsx - 12.132kb
+--Euro2024 fixtures.xlsx - 12.132kb
+--PI_SportBetsHistoryGridWidget (36).xlsx - 13.385kb
+--fixtures hockeyallsvenskan.xlsx - 13.414kb
+--RegularLevelRules-Filters-We-02-2024.xlsx - 14.609kb
+--PI_SportBetsHistoryGridWidget (54).xlsx - 15.824kb
+--NFL Limit Change Request 2-2.xlsx - 16.319kb
+--swedish cup zero odds (1).xlsx - 16.484kb
+--swedish cup zero odds (2).xlsx - 16.484kb
+--swedish cup zero odds.xlsx - 16.484kb
+--RegularLevelRules-Filters-We-02-2024 (2).xlsx - 16.494kb
+--za shureto.xlsx - 16.781kb
+--NCAADivIWrestlingTeams.xlsx - 17.047kb
+--RegularLevelRules-Filters-Tu-01-2024.xlsx - 17.104kb
+--hockeyettan fixtures februari.xlsx - 17.429kb
+--NFL Limit Change Request (1).xlsx - 17.761kb
+--NFL Limit Change Request.xlsx - 17.761kb
+--RegularLevelRules-Filters-We-12-2023.xlsx - 22.131kb
+--GameLevelFilters-Filters-Fr-01-2024.xlsx - 24.571kb
+--DKE Events CW6.xlsx - 26.815kb
+--PO&Limits (1).xlsx - 27.115kb
+--PO&Limits.xlsx - 27.115kb
+--DK Betway Boost Request 1.25.2024.xlsx - 40.892kb
+--PI_SportBetsHistoryGridWidget (33).xlsx - 47.549kb
+--DK_Limits_Payouts_Amounts.xlsx - 84.234kb
+--Boxing Calendar - 2024 .xlsx - 133.752kb
+--Boxing Calendar - 2024  (1).xlsx - 134.344kb
+--Boxing Calendar - 2024  (2).xlsx - 134.394kb
+--Boxing Calendar - 2024  (3).xlsx - 134.440kb
+--Boxing Calendar - 2024  (8).xlsx - 134.714kb
+--Boxing Calendar - 2024  (6).xlsx - 134.962kb
+--Boxing Calendar - 2024  (4).xlsx - 135.623kb
+--Boxing Calendar - 2024  (5).xlsx - 135.623kb
+--Boxing Calendar - 2024  (7).xlsx - 136.796kb
+--Boxing Calendar .xlsx - 150.015kb
+--RetailDemoUSA_LIVE_Payout_Amounts.xlsx - 169.833kb
+--Boxing Calendar  (1).xlsx - 257.756kb
+--Boxing Calendar  (2).xlsx - 257.844kb
+--Boxing Calendar  (3).xlsx - 257.844kb
+--PurchaseBets_2024_01_13_CIP_PROD.xlsx - 902.993kb
+--Topaz_PayoutAndLimits (1).xlsx - 989.044kb
+--Topaz_PayoutAndLimits (2).xlsx - 989.044kb
+--Topaz_PayoutAndLimits (3).xlsx - 989.044kb
+--Topaz_PayoutAndLimits (4).xlsx - 989.044kb
+--Topaz_PayoutAndLimits.xlsx - 989.044kb
+--Za_Varti.xlsx - 992.734kb
+--VT (15200) Filtering Process.xlsx - 1250.000kb
+--Sus_MaxWin_Included.xlsx - 1307.161kb
+--Topaz_LIVE_Payout_Amounts.xlsx - 4747.906kb
+--SBT_LIVE_Payout_Amounts.xlsx - 4824.383kb
+.csv
+--betHistory (87) (1).csv - 0.349kb
+--betHistory (87).csv - 0.349kb
+--NHL - Late bet.csv - 0.697kb
+--betHistory (86).csv - 0.984kb
+--Wembanyama after score 35-31.csv - 1.072kb
+--Last 12 hours cancelled markets LS NL.csv - 1.625kb
+--Last 12 hours cancelled markets LS NL (3).csv - 1.683kb
+--Last 12 hours cancelled markets LS NL (6).csv - 1.921kb
+--Last 12 hours cancelled markets LS NL (4).csv - 1.975kb
+--Last 12 hours cancelled markets LS NL (5).csv - 1.975kb
+--Last 12 hours cancelled markets LS NL (1).csv - 2.293kb
+--Selections Export 8-Jan-2024 07-22-52.csv - 4.288kb
+--Last 12 hours cancelled markets LS NL (2).csv - 5.388kb
+--Kevon Looney Wrong Odds (1).csv - 9.062kb
+--Kevon Looney Wrong Odds.csv - 9.062kb
+--Selections Export 11-Jan-2024 03-53-11 (1).csv - 9.932kb
+--Selections Export 11-Jan-2024 03-53-11.csv - 9.932kb
+--Selections Export 13-Jan-2024 11-05-15.csv - 10.794kb
+--Selections Export 20-Dec-2023 06-36-24.csv - 42.626kb
+--NFL Incorrect Combinability Bets.csv - 1937.440kb
+.docx
+--~$. Even Lines_Problems Descriptions.docx - 0.158kb
+--~$. Odd Lines_Problems Descriptions.docx - 0.158kb
+--01. Extract Person Information_Problems Descriptions (1).docx - 153.204kb
+--01. Extract Person Information_Problems Descriptions.docx - 153.204kb
+--01. Valid Usernames_Problems Descriptions.docx - 158.415kb
+--01. Furniture_Problems Descriptions (1).docx - 164.383kb
+--01. Furniture_Problems Descriptions (2).docx - 164.383kb
+--01. Furniture_Problems Descriptions.docx - 164.383kb
+--01. Unique Usernames_Problems Descriptions.docx - 165.817kb
+--01. Even Lines_Problems Descriptions.docx - 166.201kb
+--01. Odd Lines_Problems Descriptions (1).docx - 177.032kb
+--01. Odd Lines_Problems Descriptions.docx - 177.032kb
+--1. Sum Matrix Elements_Problems Descriptions.docx - 187.946kb
+--1. Diagonal Difference_Problems Descriptions.docx - 196.378kb
+--01. Basic Stack Operations_Problems Descriptions.docx - 279.392kb
+--01. Count Same Values in Array_Problems Descriptions.docx - 285.644kb
+--1. Reverse a String_Problems Descriptions.docx - 299.201kb
+--01. Match Full Name_Problems Descriptions.docx - 552.937kb
+.pdf
+--01. Company Roster_Problems Description.pdf - 228.585kb
+--01. Valid Usernames_Problems Description (1).pdf - 271.446kb
+--01. Valid Usernames_Problems Description (2).pdf - 271.446kb
+--01. Valid Usernames_Problems Description.pdf - 271.446kb
+--01. Reverse Strings_Problems Description (1).pdf - 276.716kb
+--01. Reverse Strings_Problems Description.pdf - 276.716kb
+--01. Count Real Numbers_Problems Description (1).pdf - 281.838kb
+--01. Count Real Numbers_Problems Description.pdf - 281.838kb
+--01. Advertisement Message_Problems Description (1).pdf - 293.148kb
+--01. Advertisement Message_Problems Description (2).pdf - 293.148kb
+--01. Advertisement Message_Problems Description (3).pdf - 293.148kb
+--01. Advertisement Message_Problems Description.pdf - 293.148kb
+--01. Ranking_Problems Description.pdf - 297.206kb
+--01. Count Chars in a String_Problems Description.pdf - 311.708kb
+--2.pdf - 538.013kb
+--3.pdf - 538.013kb
+--4.pdf - 538.013kb
+--01. Randomize Words_Problems Description.pdf - 635.725kb
+.mp4
+--bandicam 2024-01-19 11-02-40-569 (1).mp4 - 637.396kb
+--bandicam 2024-01-19 11-02-40-569 (2).mp4 - 637.396kb
+--bandicam 2024-01-19 11-02-40-569.mp4 - 637.396kb
+--bandicam 2023-12-09 18-27-44-513.mp4 - 10723.678kb
+--Langen STG (1).mp4 - 12120.352kb
+--Langen STG (2).mp4 - 12120.352kb
+--Langen STG.mp4 - 12120.352kb
+--Screen_Recording_20231215_131141_YouTube (2).mp4 - 23135.299kb
+--Screen_Recording_20231215_131141_YouTube (3).mp4 - 23135.299kb
+--Screen_Recording_20231215_131141_YouTube.mp4 - 23135.299kb
+--Screen_Recording_20231215_131141_YouTube (1) (1).mp4 - 24634.196kb
+--Screen_Recording_20231215_131141_YouTube (1).mp4 - 24634.196kb
+.json
+--not_settled_sport_cast_purchases (5).json - 0.579kb
+--not_settled_sport_cast_purchases (2).json - 0.776kb
+--not_settled_sport_cast_purchases.json - 0.776kb
+--aggregated_not_settled_sport_cast_purchases (1).json - 0.811kb
+--aggregated_not_settled_sport_cast_purchases.json - 0.811kb
+--not_settled_sport_cast_purchases (1).json - 1.333kb
+--not_settled_sport_cast_purchases (6).json - 1.333kb
+--not_settled_sport_cast_purchases (3).json - 1.729kb
+--not_settled_sport_cast_purchases (4).json - 1.729kb
+.zip
+--WindowsFormsApp-example.zip - 3.699kb
+--01. Odd Lines_Skeleton_6.0.zip - 3.746kb
+--04-CSharp-Advanced-Streams-Files-and-Directories-Lab-Resources.zip - 8.133kb
+--Skeleton (1).zip - 1599.360kb
+.eml
+--[EXTERNAL] Table tennis Match information - Match removed.eml - 25.639kb
+--[EXTERNAL] SUP-111808 DKE 3rd Party Queries - Tennis - Yexin Ma vs Alina Korneeva (1).eml - 35.360kb
+--[EXTERNAL] SUP-111808 DKE 3rd Party Queries - Tennis - Yexin Ma vs Alina Korneeva.eml - 35.360kb
+.MOV
+--1fva87lr93fao7-Video Clip (2024-01-11 11_55_05) (1).MOV - 4742.073kb
+--1fva87lr93fao7-Video Clip (2024-01-11 11_55_05).MOV - 4742.073kb
+.png
+--thumbnail_image002.png - 18.140kb
+--image.png - 43.334kb
+.exe
+--JetBrains.ReSharper.web.exe - 905.430kb
+.ini
+--desktop.ini - 0.275kb
+.xls
+--Naisten Liiga.xls - 53.500kb
+.XLSB
+--retaildemo.XLSB - 50.348kb

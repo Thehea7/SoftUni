@@ -12,6 +12,7 @@
             int secondSetlenght = entries[1];
             HashSet<int> firstSet = new HashSet<int>();
             HashSet<int> secondSet = new HashSet<int>();
+            
 
             for (int i = 0; i < firstSetLenght; i++)
             {
