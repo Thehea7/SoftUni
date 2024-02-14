@@ -11,23 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabTest1", "LabTest1\LabTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "labTest2_StreamReaderDemo", "labTest2_StreamReaderDemo\labTest2_StreamReaderDemo.csproj", "{0541C7FB-C072-469C-9726-B508A55150F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTest3_UsingConstruct", "LabTest3_UsingConstruct\LabTest3_UsingConstruct.csproj", "{421D4606-196D-4559-B00A-E7EB04C9A29F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabTest3_UsingConstruct", "LabTest3_UsingConstruct\LabTest3_UsingConstruct.csproj", "{421D4606-196D-4559-B00A-E7EB04C9A29F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WordCount", "03.WordCount\03.WordCount.csproj", "{3CC9A989-48E6-4A62-A511-3FF18FA93263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.WordCount", "03.WordCount\03.WordCount.csproj", "{3CC9A989-48E6-4A62-A511-3FF18FA93263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTest4-FileStreams", "LabTest4-FileStreams\LabTest4-FileStreams.csproj", "{C4D1C9D1-DA26-4D06-BF81-FF000B1300EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabTest4-FileStreams", "LabTest4-FileStreams\LabTest4-FileStreams.csproj", "{C4D1C9D1-DA26-4D06-BF81-FF000B1300EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLabEncryptFiles", "TestLabEncryptFiles\TestLabEncryptFiles.csproj", "{5CA368DB-71A1-4A3F-A8C4-C02ABB1B8F85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLabEncryptFiles", "TestLabEncryptFiles\TestLabEncryptFiles.csproj", "{5CA368DB-71A1-4A3F-A8C4-C02ABB1B8F85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTest Files", "LabTest Files\LabTest Files.csproj", "{046BDB7D-103D-4186-8AC5-978775CB2AAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabTest Files", "LabTest Files\LabTest Files.csproj", "{046BDB7D-103D-4186-8AC5-978775CB2AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLab Directories", "TestLab Directories\TestLab Directories.csproj", "{60D5E0C8-F534-4D13-B65E-C5D1B0AE763F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLab Directories", "TestLab Directories\TestLab Directories.csproj", "{60D5E0C8-F534-4D13-B65E-C5D1B0AE763F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab Additional Video by Viktor - Rekursiq", "Lab Additional Video by Viktor - Rekursiq\Lab Additional Video by Viktor - Rekursiq.csproj", "{1E8D42AB-F46E-4BB6-95D9-497649A902D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab Additional Video by Viktor - Rekursiq", "Lab Additional Video by Viktor - Rekursiq\Lab Additional Video by Viktor - Rekursiq.csproj", "{1E8D42AB-F46E-4BB6-95D9-497649A902D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MergeTextFiles", "04.MergeTextFiles\04.MergeTextFiles.csproj", "{9A2527E3-DC37-4357-B14A-2DF883EB5F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.MergeTextFiles", "04.MergeTextFiles\04.MergeTextFiles.csproj", "{9A2527E3-DC37-4357-B14A-2DF883EB5F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ExtractSpecialBytes", "05.ExtractSpecialBytes\05.ExtractSpecialBytes.csproj", "{51ED6B4F-C784-40DA-BB87-756CBDF3D64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.ExtractSpecialBytes", "05.ExtractSpecialBytes\05.ExtractSpecialBytes.csproj", "{51ED6B4F-C784-40DA-BB87-756CBDF3D64C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Split,MergeBinaryFiles", "06. Split,MergeBinaryFiles\06. Split,MergeBinaryFiles.csproj", "{64C72344-1D76-4DB4-855A-212939B47187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.FolderSize", "07.FolderSize\07.FolderSize.csproj", "{08E1AADD-FC20-43F8-9157-7609364D006A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{51ED6B4F-C784-40DA-BB87-756CBDF3D64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51ED6B4F-C784-40DA-BB87-756CBDF3D64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51ED6B4F-C784-40DA-BB87-756CBDF3D64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C72344-1D76-4DB4-855A-212939B47187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C72344-1D76-4DB4-855A-212939B47187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C72344-1D76-4DB4-855A-212939B47187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C72344-1D76-4DB4-855A-212939B47187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E1AADD-FC20-43F8-9157-7609364D006A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E1AADD-FC20-43F8-9157-7609364D006A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E1AADD-FC20-43F8-9157-7609364D006A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E1AADD-FC20-43F8-9157-7609364D006A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿namespace ExtractSpecialBytes
+﻿using System.Reflection.PortableExecutable;
+
+namespace ExtractSpecialBytes
 {
     public class ExtractSpecialBytes
     {
@@ -13,16 +15,35 @@
 
         public static void ExtractBytesFromBinaryFile(string binaryFilePath, string bytesFilePath, string outputPath)
         {
+            FileStream stream = new FileStream(binaryFilePath, FileMode.Open);
+            byte[] buffer = new byte[stream.Length];
+
             
-            using (FileStream stream = new FileStream(binaryFilePath, FileMode.Open))
+
+            using (stream)
             {
-                byte[] data = new byte[stream.Length];
-                stream.Read(data, 0, data.Length);
+                using (StreamReader reader = new StreamReader(bytesFilePath))
+                {
+                    using (StreamWriter writer = new StreamWriter(outputPath))
+                    {
 
-                Console.WriteLine(string.Join(" ", data));
+                        var bytes = reader.ReadToEnd();
+                        int[] filter = bytes.Split("\n").Select(int.Parse).ToArray();
+                        stream.Read(buffer, 0, buffer.Length);
+                        // Console.WriteLine(string.Join(" ", buffer));
+                         Console.WriteLine(string.Join(" ", filter));
+
+                         foreach (var b in buffer)
+                         {
+                             if (filter.Contains(b))
+                             {
+                                 writer.Write($"{b} ", true);
+                                // Console.Write($"{b} ", true);
+                            }
+                         }
+                    }
+                }
             }
-            
-
         }
     }
 }
