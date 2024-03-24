@@ -11,6 +11,8 @@ namespace IteratorsAndComparators
     {
         private List<Book> books { get; set; }
 
+
+
         public Library(params Book[] books)
         {
             this.books = books.OrderBy(x => x, new BookComparator())
@@ -40,6 +42,7 @@ namespace IteratorsAndComparators
                 this.books = books.ToList();
             }
 
+            
 
             object IEnumerator.Current => Current;
             public bool MoveNext() => ++currentIndex < books.Count;
