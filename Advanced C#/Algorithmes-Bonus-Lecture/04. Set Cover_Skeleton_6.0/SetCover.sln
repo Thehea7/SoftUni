@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetCover", "SetCover.csproj", "{8E3BF234-00D5-4A28-BFE1-FA7DCE6B516E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3BF234-00D5-4A28-BFE1-FA7DCE6B516E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3BF234-00D5-4A28-BFE1-FA7DCE6B516E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3BF234-00D5-4A28-BFE1-FA7DCE6B516E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3BF234-00D5-4A28-BFE1-FA7DCE6B516E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E42BBF6-6FC5-4FEC-B778-503BD6EBD349}
+	EndGlobalSection
+EndGlobal
