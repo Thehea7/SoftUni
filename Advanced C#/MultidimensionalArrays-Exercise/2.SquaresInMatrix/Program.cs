@@ -14,7 +14,7 @@
 
             string[,] matrix = new string[rows, cols];
 
-            List<string[,]> listOfSquares = new List<string[,]>();
+            //List<string[,]> listOfSquares = new List<string[,]>();
 
             for (int row = 0; row < rows; row++)
             {

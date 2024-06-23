@@ -33,9 +33,7 @@
                     int row2 = int.Parse(arguments[3]);
                     int col2 = int.Parse(arguments[4]);
 
-                    string position1 = matrix[row1, col1];
-                    matrix[row1, col1] = matrix[row2, col2];
-                    matrix[row2, col2] = position1;
+                    (matrix[row1, col1], matrix[row2, col2]) = (matrix[row2, col2], matrix[row1, col1]);
 
                     PrintMatrix(matrix);
                 }

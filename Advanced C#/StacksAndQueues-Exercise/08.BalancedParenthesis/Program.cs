@@ -17,8 +17,7 @@
             while (input.Count > 0)
             {
                 char currentChar = input.Dequeue();
-                char lastChar = default;
-                brackets.TryPeek(out lastChar);
+                brackets.TryPeek(out var lastChar);
                 if (isMatch(currentChar, lastChar))
                 {
                     brackets.Pop();

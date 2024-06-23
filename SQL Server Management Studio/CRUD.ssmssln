@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "..\..\..\Documents\SQL Server Management Studio\SQL Server Scripts1\SQL Server Scripts1.ssmssqlproj", "{0E9605BF-8252-40ED-A879-870215BDBBEC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Table Relations Lections", "..\..\..\Documents\SQL Server Management Studio\Table Relations Lections\Table Relations Lections.ssmssqlproj", "{19E51242-D026-4393-B8EE-C71CA23AA268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{925755A3-7E07-4B1A-8A17-5083E821B2FB}.Default|Default.ActiveCfg = Default
+		{0E9605BF-8252-40ED-A879-870215BDBBEC}.Default|Default.ActiveCfg = Default
+		{19E51242-D026-4393-B8EE-C71CA23AA268}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B795AB-A171-40AA-BA35-719BA2893322}
+	EndGlobalSection
+EndGlobal
