@@ -7,7 +7,7 @@ namespace AdoDotnetDemo
     {
         static void Main(string[] args)
         {
-            string connectionString = Vryzka.Azure(); //"Server=DESKTOP-IKUABEV\\SQLSOFTUNI;Database=SoftUni;Trusted_Connection=True;TrustServerCertificate=True";
+            string connectionString =  "Server=DESKTOP-IKUABEV\\SQLSOFTUNI;Database=SoftUni;Trusted_Connection=True;TrustServerCertificate=True"; //Vryzka.Azure();
 
             using SqlConnection  connection = new SqlConnection(connectionString);
             connection.Open();

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkIntroduction_LAB
+namespace DBFirstDemo.Data.Models
 {
     public partial class Address
     {
@@ -22,10 +22,10 @@ namespace EntityFrameworkIntroduction_LAB
         [Column("TownID")]
         public int? TownId { get; set; }
 
-        [ForeignKey(nameof(TownId))]
+        [ForeignKey("TownId")]
         [InverseProperty("Addresses")]
         public virtual Town? Town { get; set; }
-        [InverseProperty(nameof(Employee.Address))]
+        [InverseProperty("Address")]
         public virtual ICollection<Employee> Employees { get; set; }
     }
 }

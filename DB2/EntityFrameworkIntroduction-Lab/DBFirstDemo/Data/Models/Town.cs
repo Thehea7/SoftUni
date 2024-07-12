@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkIntroduction_LAB
+namespace DBFirstDemo.Data.Models
 {
     public partial class Town
     {
@@ -20,7 +20,7 @@ namespace EntityFrameworkIntroduction_LAB
         [Unicode(false)]
         public string Name { get; set; } = null!;
 
-        [InverseProperty(nameof(Address.Town))]
+        [InverseProperty("Town")]
         public virtual ICollection<Address> Addresses { get; set; }
     }
 }

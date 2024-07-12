@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkIntroduction_LAB
+namespace DBFirstDemo.Data.Models
 {
     public partial class Employee
     {
@@ -41,22 +41,22 @@ namespace EntityFrameworkIntroduction_LAB
         [Column("AddressID")]
         public int? AddressId { get; set; }
 
-        [ForeignKey(nameof(AddressId))]
+        [ForeignKey("AddressId")]
         [InverseProperty("Employees")]
         public virtual Address? Address { get; set; }
-        [ForeignKey(nameof(DepartmentId))]
+        [ForeignKey("DepartmentId")]
         [InverseProperty("Employees")]
         public virtual Department Department { get; set; } = null!;
-        [ForeignKey(nameof(ManagerId))]
-        [InverseProperty(nameof(Employee.InverseManager))]
+        [ForeignKey("ManagerId")]
+        [InverseProperty("InverseManager")]
         public virtual Employee? Manager { get; set; }
         [InverseProperty("Manager")]
         public virtual ICollection<Department> Departments { get; set; }
-        [InverseProperty(nameof(Employee.Manager))]
+        [InverseProperty("Manager")]
         public virtual ICollection<Employee> InverseManager { get; set; }
 
         [ForeignKey("EmployeeId")]
-        [InverseProperty(nameof(Project.Employees))]
+        [InverseProperty("Employees")]
         public virtual ICollection<Project> Projects { get; set; }
     }
 }

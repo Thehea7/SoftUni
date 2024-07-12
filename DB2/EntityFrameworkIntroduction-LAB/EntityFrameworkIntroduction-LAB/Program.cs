@@ -1,4 +1,4 @@
-﻿namespace EntityFrameworkIntroduction_LAB
+﻿namespace EntityFrameworkIntroduction_Lab
 {
     internal class Program
     {

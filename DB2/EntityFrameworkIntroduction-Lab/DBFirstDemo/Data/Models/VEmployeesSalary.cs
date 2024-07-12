@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkIntroduction_LAB
+namespace DBFirstDemo.Data.Models
 {
     [Keyless]
-    public partial class VEmployeesHiredAfter200
+    public partial class VEmployeesSalary
     {
         [StringLength(50)]
         [Unicode(false)]
@@ -15,5 +15,7 @@ namespace EntityFrameworkIntroduction_LAB
         [StringLength(50)]
         [Unicode(false)]
         public string LastName { get; set; } = null!;
+        [Column(TypeName = "money")]
+        public decimal Salary { get; set; }
     }
 }

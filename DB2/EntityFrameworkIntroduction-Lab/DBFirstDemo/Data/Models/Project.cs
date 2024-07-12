@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkIntroduction_LAB
+namespace DBFirstDemo.Data.Models
 {
     public partial class Project
     {
@@ -27,7 +27,7 @@ namespace EntityFrameworkIntroduction_LAB
         public DateTime? EndDate { get; set; }
 
         [ForeignKey("ProjectId")]
-        [InverseProperty(nameof(Employee.Projects))]
+        [InverseProperty("Projects")]
         public virtual ICollection<Employee> Employees { get; set; }
     }
 }
