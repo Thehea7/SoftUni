@@ -19,7 +19,7 @@ namespace SoftUni.Data
         public virtual DbSet<Employee> Employees { get; set; } = null!;
         public virtual DbSet<Project> Projects { get; set; } = null!;
         public virtual DbSet<Town> Towns { get; set; } = null!;
-        public virtual DbSet<EmployeeProject> EmployeeProjects { get; set; } = null!;
+        public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -140,7 +140,7 @@ namespace SoftUni.Data
 
             modelBuilder.Entity<EmployeeProject>(entity =>
             {
-                entity.HasKey(pk => new { pk.EmployeeId, pk.ProjectID });
+                entity.HasKey(pk => new { pk.EmployeeId, ProjectID = pk.ProjectId });
 
                 entity.HasOne(ep => ep.Employee)
                     .WithMany(e => e.EmployeesProjects)
@@ -148,7 +148,7 @@ namespace SoftUni.Data
 
                 entity.HasOne(ep => ep.Project)
                     .WithMany(p => p.EmployeesProjects)
-                    .HasForeignKey(ep => ep.ProjectID);
+                    .HasForeignKey(ep => ep.ProjectId);
             });
 
             OnModelCreatingPartial(modelBuilder);

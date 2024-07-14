@@ -10,10 +10,8 @@ namespace Farm
     {
         static void Main()
         {
+            Dog dog = new Animal() as Dog;
             
-
-            Dog dog = new Dog();
-
             dog.Bark();
             dog.Eat();
         }
