@@ -39,4 +39,4 @@ else if (totalPrice > 2500)
 }
 else if (pic == 'Y') totalPrice += (nTickets * 40);
 
-Console.WriteLine($"{totalPrice}:f2");
+Console.WriteLine($"{totalPrice:f2}");

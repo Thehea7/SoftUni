@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace Farm
     {
         static void Main()
         {
-            Dog dog = new Animal() as Dog;
+            Dog dog = new Dog();
             
             dog.Bark();
             dog.Eat();
