@@ -8,32 +8,37 @@ namespace Person
 {
     public class Person
     {
-        private int age;
+        private string _name;
+
+        private int _age;
 
         public Person(string name, int age)
         {
             Name = name;
             Age = age;
         }
-
-        public string Name { get; set; }
+          
+        public string Name
+        {
+            get => _name;
+            set => _name = value;
+        }
 
         public virtual int Age
         {
-            get => age;
+            get => _age;
             set
             {
                 if (value > -1)
                 {
-                    age = value;
+                    _age = value;
                 }
             }
-            
         }
 
         public override string ToString()
         {
-            return $"Name: {Name}, Age: {age}";
+            return $"{GetType().Name} -> Name: {Name}, Age: {Age}";
         }
     }
 }
