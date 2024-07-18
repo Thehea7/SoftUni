@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\P02_FootballBetting.Common\P02_FootballBetting.Common.csproj" />
+  </ItemGroup>
+
 </Project>
