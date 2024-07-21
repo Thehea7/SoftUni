@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 using P02_FootballBetting.Common;
 
-namespace P02_FootballBetting.Models
+namespace P02_FootballBetting.Data.Models
 {
     public class Position
     {
@@ -16,5 +11,7 @@ namespace P02_FootballBetting.Models
         [Required]
         [MaxLength(ValidationConstants.PositionNameMaxlength)]
         public string Name { get; set; } = null!;
+
+        public virtual ICollection<Player> Players { get; set; } = new List<Player>();
     }
 }

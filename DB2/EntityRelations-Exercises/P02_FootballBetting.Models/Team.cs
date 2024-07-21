@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using P02_FootballBetting.Common;
 
-namespace P02_FootballBetting.Models
+namespace P02_FootballBetting.Data.Models
 {
     public class Team
     {
@@ -29,17 +24,38 @@ namespace P02_FootballBetting.Models
         [Required]
         public decimal Budget { get; set; }
 
-        [Required]
+        // Relations to Color
+
+
         public int PrimaryKitColorId { get; set; }
 
         [ForeignKey(nameof(PrimaryKitColorId))]
-        public virtual Color PrimaryColor { get; set; } = null!;
+        public virtual Color PrimaryKitColor { get; set; } = null!;
+
+
         public int SecondaryKitColorId { get; set; }
 
         [ForeignKey(nameof(SecondaryKitColorId))]
-        public virtual Color SecondaryColor { get; set; } = null!;
+        public virtual Color SecondaryKitColor { get; set; } = null!;
 
+        // Relation to Town
+        [Required]
+        public int TownId { get; set; }
 
+        [ForeignKey(nameof(TownId))]
+
+        public virtual Town Town { get; set; } = null!;
+
+        //Relation to Players
+
+        public virtual ICollection<Player> Players { get; set; } = new List<Player>();
+
+        //relation to Games
+        [InverseProperty("HomeTeam")]
+        public virtual ICollection<Game> HomeGames { get; set; } = new List<Game>();
+
+        [InverseProperty("AwayTeam")]
+        public virtual ICollection<Game> AwayGames { get; set; } = new List<Game>();
 
     }
 }

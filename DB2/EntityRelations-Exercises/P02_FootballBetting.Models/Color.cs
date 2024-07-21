@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using P02_FootballBetting.Common;
 
-namespace P02_FootballBetting.Models
+namespace P02_FootballBetting.Data.Models
 {
     public class Color
     {
-
 
         [Key]
         public int ColorId { get; set; }
@@ -20,9 +15,12 @@ namespace P02_FootballBetting.Models
 
         public string Name { get; set; } = null!;
 
+        [InverseProperty("PrimaryKitColor")]
         public ICollection<Team> PrimaryKitTeams { get; set; } = new List<Team>();
+        [InverseProperty("SecondaryKitColor")]
         public ICollection<Team> SecondaryKitTeams { get; set; } = new List<Team>();
 
 
     }
 }
+ 

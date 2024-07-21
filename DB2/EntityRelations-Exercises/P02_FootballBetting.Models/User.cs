@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using P02_FootballBetting.Common;
 
-namespace P02_FootballBetting.Models
+namespace P02_FootballBetting.Data.Models
 {
     public class User
     {
@@ -27,6 +27,6 @@ namespace P02_FootballBetting.Models
         [Required]
         public decimal Balance { get; set; }
 
-
+        public virtual ICollection<Bet> Bets { get; set; } = new List<Bet>();
     }
 }

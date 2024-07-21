@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using P02_FootballBetting.Common;
 
-namespace P02_FootballBetting.Models
+namespace P02_FootballBetting.Data.Models
 {
     public class Town
     {
+       
+
         [Key]
         public int TownId { get; set; }
 
@@ -18,8 +15,11 @@ namespace P02_FootballBetting.Models
         [MaxLength(ValidationConstants.TownNameMaxLength)]
         public string Name { get; set; } = null!;
 
-        public int? CountryId { get; set; }
+        public int CountryId { get; set; }
         [ForeignKey(nameof(CountryId))]
         public Country Country { get; set; } = null!;
+
+        public virtual ICollection<Team> Teams { get; set; } = new List<Team>();
+        public virtual ICollection<Player> Players { get; set; } = new List<Player>();
     }
 }

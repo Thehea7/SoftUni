@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\P02_FootballBetting.Data\P02_FootballBetting.Data.csproj" />
+    <ProjectReference Include="..\P02_FootballBetting.Models\P02_FootballBetting.Data.Models.csproj" />
+  </ItemGroup>
+
 </Project>
