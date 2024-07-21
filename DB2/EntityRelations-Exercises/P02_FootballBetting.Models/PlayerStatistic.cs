@@ -12,11 +12,11 @@ namespace P02_FootballBetting.Data.Models
     {
         public int GameId { get; set; }
         [ForeignKey(nameof(GameId))]
-        public Game Game { get; set; } = null!;
+        public virtual Game Game { get; set; } = null!;
         public int PlayerId { get; set; }
 
         [ForeignKey(nameof(PlayerId))] 
-        public Player Player { get; set; } = null!;
+        public virtual Player Player { get; set; } = null!;
 
         [Required] 
         public int ScoredGoals { get; set; } = 0;

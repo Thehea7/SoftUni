@@ -16,12 +16,12 @@ namespace P02_FootballBetting.Data.Models
        
         public int HomeTeamId { get; set; }
         [ForeignKey(nameof(HomeTeamId))] 
-        public Team HomeTeam { get; set; } = null!;
+        public virtual Team HomeTeam { get; set; } = null!;
 
         
         public int AwayTeamId { get; set; }
         [ForeignKey(nameof(AwayTeamId))] 
-        public Team AwayTeam { get; set; } = null!;
+        public virtual Team AwayTeam { get; set; } = null!;
 
         
         public int HomeTeamGoals { get; set; }

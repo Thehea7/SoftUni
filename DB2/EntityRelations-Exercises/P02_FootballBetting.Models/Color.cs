@@ -16,9 +16,9 @@ namespace P02_FootballBetting.Data.Models
         public string Name { get; set; } = null!;
 
         [InverseProperty("PrimaryKitColor")]
-        public ICollection<Team> PrimaryKitTeams { get; set; } = new List<Team>();
+        public virtual ICollection<Team> PrimaryKitTeams { get; set; } = new List<Team>();
         [InverseProperty("SecondaryKitColor")]
-        public ICollection<Team> SecondaryKitTeams { get; set; } = new List<Team>();
+        public virtual ICollection<Team> SecondaryKitTeams { get; set; } = new List<Team>();
 
 
     }

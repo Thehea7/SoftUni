@@ -28,17 +28,17 @@ namespace P02_FootballBetting.Data.Models
         public int PositionId { get; set; }
 
         [ForeignKey(nameof(PositionId))]
-        public Position Position { get; set; } = null!;
+        public virtual Position Position { get; set; } = null!;
 
         
         public int TeamId { get; set; }
         [ForeignKey(nameof(TeamId))]
-        public Team Team { get; set; } = null!;
+        public virtual Team Team { get; set; } = null!;
 
         [Required]
         public int TownId { get; set; }
         [ForeignKey(nameof(TownId))]
-        public Town Town { get; set; } = null!;
+        public virtual Town Town { get; set; } = null!;
 
 
         public virtual ICollection<PlayerStatistic> PlayersStatistics { get; set; } = new List<PlayerStatistic>();
