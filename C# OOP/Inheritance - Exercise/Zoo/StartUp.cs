@@ -12,9 +12,9 @@ namespace Zoo
             Snake snake = new("Nazdjini");
             Lizard lizard = new("Miglen");
             Reptile reptile = new("Kiro");
-            Animal animal = new("Compliance");
+            Animal animal = new Reptile("Compliance");
             Console.WriteLine(snake.Name);
-            Console.WriteLine(animal.GetType());
+            Console.WriteLine(animal.GetType().Name);
         }
     }
 }

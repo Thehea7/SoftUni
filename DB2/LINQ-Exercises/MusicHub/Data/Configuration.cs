@@ -3,6 +3,6 @@
     public static class Configuration
     {
         public static string ConnectionString =
-            @"Server=.;Database=MusicHub;Trusted_Connection=True";
+            "Server=DESKTOP-IKUABEV\\SQLSOFTUNI;Database=MusicHub;Trusted_Connection=True;TrustServerCertificate=True";
     }
 }
