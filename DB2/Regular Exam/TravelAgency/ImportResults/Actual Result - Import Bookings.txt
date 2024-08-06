@@ -1,0 +1,28 @@
+Successfully imported booking. TourPackage: Horse Riding Tour, Date: 9/21/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sightseeing Tour, Date: 9/22/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Historical Sites, Date: 10/1/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Horse Riding Tour, Date: 11/1/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sightseeing Tour, Date: 9/20/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Historical Sites, Date: 12/6/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Horse Riding Tour, Date: 9/15/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Historical Sites, Date: 9/23/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sunset Cruise, Date: 9/27/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Horse Riding Tour, Date: 9/28/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Wildlife Safari, Date: 9/29/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sunset Cruise, Date: 9/30/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sightseeing Tour, Date: 10/5/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sightseeing Tour, Date: 5/5/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Diving Tour, Date: 10/8/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Wildlife Safari, Date: 10/3/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Sunset Cruise, Date: 10/4/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Food Tour, Date: 10/5/2024 12:00:00 AM
+Invalid data format!
+Successfully imported booking. TourPackage: Wildlife Safari, Date: 10/6/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Diving Tour, Date: 10/7/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Diving Tour, Date: 10/8/2024 12:00:00 AM
+Invalid data format!
+Successfully imported booking. TourPackage: Food Tour, Date: 11/9/2024 12:00:00 AM
+Successfully imported booking. TourPackage: City Tour, Date: 10/3/2024 12:00:00 AM
+Successfully imported booking. TourPackage: City Tour, Date: 11/11/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Mountain Hiking, Date: 10/12/2024 12:00:00 AM
+Successfully imported booking. TourPackage: Mountain Hiking, Date: 10/13/2024 12:00:00 AM
